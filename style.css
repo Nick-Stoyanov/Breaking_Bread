@@ -1,0 +1,86 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100vh;
+    font-family: "Raleway", Arial, sans-serif;
+    background-color: #eaeadf;
+}
+
+.navbar
+{
+    padding: 2vh 2vw;
+    width: 100vw;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+    align-items: center;
+
+}
+
+#homebutton1
+{
+    width: 15vw;
+
+}
+
+.navbar a ,#contact, .centered
+{
+    font-weight: 500;
+    font-size: 2vh;
+    font-family: din-condensed-web Arial cursive Serif;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1em;
+    color: #323d4e;
+
+}
+
+.navbar li:hover
+{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.33s ease;
+    opacity: 0.5;
+
+}
+ul
+{
+    padding: 0;
+}
+
+#main_photo img
+{
+    position: relative;
+    width: 100vw;
+    opacity: 60%;
+}
+
+.centered
+{
+    left: 5%;
+    right: 5%;
+    position: absolute;
+    top: 25vh;
+    font-size: 4vw;
+    font-weight: 700;
+    color: black;
+    opacity: 75%;
+    text-transform: none;
+    text-align: center;
+}
+
+#contact
+{
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
