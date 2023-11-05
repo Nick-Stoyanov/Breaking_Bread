@@ -3,15 +3,16 @@ body
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    margin: 0;
     height: 100vh;
     font-family: "Raleway", Arial, sans-serif;
-    background-color: #eaeadf;
+    background-color: #d2c1a6;
 }
 
 .navbar
 {
-    padding: 2vh 2vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     width: 100vw;
     list-style-type: none;
     display: flex;
@@ -61,6 +62,7 @@ ul
     position: relative;
     width: 100vw;
     opacity: 60%;
+    max-height: 90vh;
 }
 
 .centered
@@ -83,4 +85,128 @@ ul
     display: flex;
     flex-direction: column;
     align-items: center;
+
+
+}
+
+.intro img {
+    width: 30vw;
+}
+
+.intro
+{
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.intro p
+{
+    padding-left: 2vh;
+    max-width: 50vw;
+    margin: 0;
+    font-family: din-condensed-web Arial cursive Serif;
+    font-size: 3vh;
+    font-weight: 500;
+
+}
+
+.intro h1 {
+    padding-left: 2vh;
+    font-family: din-condensed-web Arial cursive Serif;
+    font-size: 4vh;
+    font-weight: 900;
+
+}
+
+/* Style for menus*/
+
+
+.menus h1 {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    font-family: din-condensed-web Arial cursive Serif;
+    font-size: 5vw;
+    font-weight: 600;
+}
+
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menus li {
+    border: 1px solid black;
+    display: flex;
+    height: 25vh;
+    width: 25vw;
+    align-items: center;
+    justify-content: center;
+
+    font-family: din-condensed-web Arial cursive Serif;
+    font-size: 5vw;
+    font-weight: 900;
+    color: #e7ddcf;
+    text-shadow: 2.5px 2.5px black;
+    box-shadow: 2.5px 2.5px #6e6e6e;
+    border-radius: 16px;
+    padding: 8px;
+    flex-direction: column;
+}
+
+.menus ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.menus a {
+    text-decoration: none;
+    color: #f57c1d;
+    text-shadow: 1.5px 1.5px black;
+}
+
+.menus ul li:hover {
+    color: #e4e2e1;
+    opacity: 0.5;
+}
+
+.containerli1 {
+    background-image: url(images/Pasta.jpg);
+    background-size: cover;
+}
+
+.containerli2 {
+    background-image: url(images/Thai.jpg);
+    background-size: cover;
+}
+
+.containerli3 {
+    background-image: url(images/tacos.jpg);
+    background-size: cover;
+}
+
+.containerli4 {
+    background-image: url(images/vegetarian1.JPG);
+    background-size: cover;
+}
+
+.containerli5 {
+    background-image: url(images/tastingmenu.JPG);
+    background-size: cover;
+}
+
+.containerli6 {
+    background-image: url(images/seafood.jpg);
+    background-size: cover;
+}
+.containerli7 {
+    background-image: url(images/meat.jpg);
+    background-size: cover;
 }
